@@ -9,7 +9,7 @@ spec:
   source:
     path: manifests/http-echo
     repoURL: https://github.com/tor-wei/ce10grp2-gitops.git
-    targetRevision: HEAD
+    targetRevision: main
   destination:
     namespace: demo
     server: https://kubernetes.default.svc
